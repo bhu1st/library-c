@@ -101,7 +101,7 @@ cprintf(".");//delay();}
 delay(2000);
 /*----File Initialization---*/
 rec_size=sizeof(book);
-fp=fopen("c:\\library.sjb","ab+");
+fp=fopen("library.sjb","ab+");
        //fp=fopen("c:\\library.sjb","rb+");
 	if (fp==NULL)	bye();
 	else
@@ -627,7 +627,7 @@ cprintf("       Samir Thapa");
 gotoxy(25,29);
 cprintf("<Procedural Fn. Development>");
 textcolor(DARKGRAY);gotoxy(25,30);
-cprintf("   nisam420@hotmail.com");
+cprintf("   zzz@gmail.com");
 
 textcolor(YELLOW);
 gotoxy(25,32);
@@ -635,7 +635,7 @@ cprintf("     Janak Raj Pathak");
 gotoxy(25,33);
 cprintf("     <File Handling>");
 textcolor(DARKGRAY);gotoxy(25,34);
-cprintf("   pathakrj1@yahoo.com");
+cprintf("   zzz@gmail.com");
 
 textcolor(YELLOW);
 gotoxy(25,36);
@@ -643,7 +643,7 @@ cprintf("      Bhupal Sapkota");
 gotoxy(22,37);
 cprintf("<Interface Design & Overall Development>");
 textcolor(DARKGRAY);gotoxy(25,38);
-cprintf("    bhu1st@hotmail.com");
+cprintf("    zzz@gmail.com");
 
 textcolor(WHITE);
 gotoxy(25,43);
